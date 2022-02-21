@@ -1,0 +1,9 @@
+{
+  "name": "doa-design",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Gabriel de Oliveira Almeida <gabriel.doliveira.almeida@gmail.com>",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
