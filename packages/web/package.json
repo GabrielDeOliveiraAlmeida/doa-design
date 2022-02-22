@@ -1,5 +1,5 @@
 {
-  "name": "doa-design",
+  "name": "@doa-design/web",
   "version": "1.0.0",
   "private": true,
   "description": "",
@@ -7,13 +7,7 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/web.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
+  "extends": "../../tsconfig.json",
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   }
