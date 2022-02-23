@@ -10,5 +10,8 @@
   "extends": "../../tsconfig.json",
   "scripts": {
     "build": "tsc && rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.6"
   }
 }
