@@ -1,6 +1,8 @@
 {
-  "name": "doa-design",
+  "name": "@doa-design",
   "version": "1.0.0",
   "private": true,
+  "npmClient": "yarn",
+  "useWorkpasce": true,
   "workspaces": ["packages/*"]
 }

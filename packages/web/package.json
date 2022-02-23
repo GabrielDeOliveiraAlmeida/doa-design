@@ -9,6 +9,6 @@
   "main": "lib/web.js",
   "extends": "../../tsconfig.json",
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "tsc && rollup -c rollup.config.js"
   }
 }
