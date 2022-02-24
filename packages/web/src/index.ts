@@ -1,5 +1,5 @@
 import { createStitches, defaultThemeMap } from '@stitches/react'
-import type * as Stitches from '@stitches/react'
+import { ScaleValue } from '@stitches/react'
 
 const baseColors = {
   light: 'black',
@@ -20,6 +20,7 @@ const baseColors = {
   'grey-800': '#262626',
   'grey-900': '#09090A',
 }
+
 export const {
   config,
   css,
@@ -104,8 +105,38 @@ export const {
       light: '25%',
       semiTransparent: '10%',
     },
-    media: {
-      mobile: '(max-width: 768px)',
-    },
+  },
+  media: {
+    mobile: '(max-width: 768px)',
+  },
+  utils: {
+    mx: (value: ScaleValue<'space'>) => ({
+      marginLeft: value,
+      marginRight: value,
+    }),
+    my: (value: ScaleValue<'space'>) => ({
+      marginTop: value,
+      marginBottom: value,
+    }),
+    mxy: (value: ScaleValue<'space'>) => ({
+      marginLeft: value,
+      marginRight: value,
+      marginTop: value,
+      marginBottom: value,
+    }),
+    px: (value: ScaleValue<'space'>) => ({
+      paddingLeft: value,
+      paddingRight: value,
+    }),
+    py: (value: ScaleValue<'space'>) => ({
+      paddingTop: value,
+      paddingBottom: value,
+    }),
+    pxy: (value: ScaleValue<'space'>) => ({
+      paddingLeft: value,
+      paddingRight: value,
+      paddingTop: value,
+      paddingBottom: value,
+    }),
   },
 })

@@ -2,11 +2,9 @@
   "name": "doa-design",
   "version": "1.0.0",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "author": "Gabriel de Oliveira Almeida <gabriel.doliveira.almeida@gmail.com>",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.1",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
