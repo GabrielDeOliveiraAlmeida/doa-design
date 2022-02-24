@@ -29,6 +29,7 @@ export const {
   getCssText,
   theme,
   createTheme,
+  styled,
 } = createStitches({
   ...baseColors,
   themeMap: {
